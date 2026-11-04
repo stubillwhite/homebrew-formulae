@@ -19,7 +19,7 @@ cask "keepassxc@2.7.12" do
     "keepassxc@beta",
     "keepassxc@snapshot",
   ]
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "KeePassXC.app"
   binary "#{appdir}/KeePassXC.app/Contents/MacOS/keepassxc-cli"
